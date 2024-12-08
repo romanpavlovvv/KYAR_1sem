@@ -1,0 +1,60 @@
+body {
+    padding-top: 10px;
+}
+div {
+    display: inline;
+    width: 150px;
+    height: 150px;
+    padding: 10px;
+    text-align: center;
+} 
+.red {
+    border-width: 5px;
+    border-style: outset;
+    border-color: rgb(255, 0, 0);
+}
+.green {
+    border: 5px dashed rgb(0, 255, 0); 
+}
+.blue {
+    border: 5px dotted rgb(30, 0, 255);
+}
+.lightblue {
+    border: 5px double rgb(0, 217, 255);
+}
+.purple {
+    border:5px ridge rgb(255, 0, 255);
+}
+.yellow {
+    border:5px inset rgb(255, 255, 0);
+}
+.black {
+    border: 5px outset rgb(0, 0, 0);
+}
+span{
+    display:inline-block;
+    margin: 10px 10px 10px 5px;
+    padding: 5px 5px 5px 5px;
+    background: #FFA500;
+    border-color: #FF4500;
+    border-style: solid;
+}
+.skate {
+    width: 400px;
+    border-style: solid;  
+    border-color: #FF7F50;
+    margin-left: auto;
+    margin-right: auto;
+}
+.serf {
+    border-style: solid;
+    border-color: red;
+    border-width: 5px;
+    border-radius: 20px;
+    box-shadow: inset 2px 2px 8px 8px rgba(0,0,0,.5);
+
+}
+.snow {
+    border-style: solid;
+    border-color: #FF6347;
+}
