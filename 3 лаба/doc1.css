@@ -1,0 +1,88 @@
+/* Задаю шрифты */
+
+
+
+@font-face {
+    font-family: "Caveat" ;
+    src:
+    url("/Users/romanpavlov/Documents/BELSTU/КЯР/3 лаба/fonts/Caveat.ttf");
+}
+@font-face {
+    font-family: "Exo2" ;
+    src:
+    url("/Users/romanpavlov/Documents/BELSTU/КЯР/3 лаба/fonts/Exo2-VariableFont_wght.ttf");
+}
+@font-face {
+    font-family: "Comfortaa" ;
+    src:
+    url("/Users/romanpavlov/Documents/BELSTU/КЯР/3 лаба/fonts/Comfortaa-VariableFont_wght.ttf");
+}
+p::first-letter {
+    font-size: 45px;
+    color:white;
+    font-weight: bold;
+    background: hsla(275, 100%, 10%, 1);
+}
+h1::first-letter {
+    font-size: 45px;
+    color:white;
+    font-weight: bold;
+    background: hsla(275, 100%, 10%, 1);
+}
+h2::first-letter {
+    font-size: 45px;
+    color:white;
+    font-weight: bold;
+    background: hsla(275, 100%, 10%, 1);
+}
+
+
+
+/* Стили текста */
+
+
+
+h1 {
+    font-family: "Carveat";
+    text-align: center ;
+    font-size: 45px;
+    font-weight: bold;
+    text-shadow: 10px 5px 5px grey;
+    margin-bottom: 0;
+    text-transform: capitalize;
+}
+h2 {
+    font-family: "Exo2";
+    text-align: left ;
+    margin-top: 0.2em;
+    margin-bottom: 1.2em;
+    text-indent: 25px ;
+}
+p {
+    font-family: "Comfortaa";
+    text-indent: 25px ;
+    text-align: justify;
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 200% ;
+}
+ol li {
+    list-style-type:upper-roman;
+    font-family: "Comfortaa";
+    font-size: 20px;
+    color:black;
+    margin-top: 0;
+}
+ol li {
+    list-style-type: none;
+    counter-increment: item;
+}
+ol li:before {
+    content: counter(item, upper-roman) ".";
+    color: blue;
+}
+    
+
+
+
