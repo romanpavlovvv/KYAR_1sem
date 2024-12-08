@@ -1,0 +1,44 @@
+h1 {
+    text-align: center;
+    font-size: 1.2em;
+}
+h2 {
+    text-align: center;
+    font-size: 1.2em;
+}
+table {
+    empty-cells: hide;
+    margin: auto;
+    width: 600px;
+    table-layout: fixed;
+    border-spacing: 0px;
+}
+td {
+    border: 3px solid black;
+    width: 25%;
+}
+.head {
+    text-align: center;
+    font-size: 1.2em;
+    color: white;
+
+}
+.body1 {
+    background: #00bff0;
+    color: white;
+}
+.head {
+    background: darkblue;
+    color: white;
+}
+.body2 {
+    background: purple;
+    color: white;
+}
+.body3 {
+    background: green;
+    color: white;
+}
+.aside  {
+    width: 30px;
+}

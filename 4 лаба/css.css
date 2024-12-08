@@ -1,0 +1,23 @@
+table {
+    background: #bcadb1;
+    border: 3px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    width: 100%;
+    table-layout: fixed;
+}
+td {
+    border: 3px solid black;
+    width: 25%;
+}
+tr {
+    height: 5px;
+    width: 25%;
+}
+.time {
+    width: 10%;
+    background: #e996d2;
+}
+.string {
+    background: #e996d2;
+}
